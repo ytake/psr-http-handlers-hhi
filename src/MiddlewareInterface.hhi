@@ -4,6 +4,7 @@ namespace Interop\Http\Server;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
+use Interop\Http\Server\RequestHandlerInterface;
 
 /**
  * An HTTP middleware component participates in processing an HTTP message,
