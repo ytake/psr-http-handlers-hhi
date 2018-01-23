@@ -1,6 +1,6 @@
 <?hh // strict
 
-namespace Interop\Http\Server;
+namespace Psr\Http\Server;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
@@ -11,8 +11,8 @@ use Psr\Http\Message\ServerRequestInterface;
  */
 interface RequestHandlerInterface
 {
-    /**
-     * Handle the request and return a response.
-     */
-    public function handle(ServerRequestInterface $request): ResponseInterface;
+  /**
+   * Handle the request and return a response.
+   */
+  public function handle(ServerRequestInterface $request): ResponseInterface;
 }

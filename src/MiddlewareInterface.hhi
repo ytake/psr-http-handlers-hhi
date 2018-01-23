@@ -1,10 +1,10 @@
 <?hh // strict
 
-namespace Interop\Http\Server;
+namespace Psr\Http\Server;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
-use Interop\Http\Server\RequestHandlerInterface;
+use Psr\Http\Server\RequestHandlerInterface;
 
 /**
  * An HTTP middleware component participates in processing an HTTP message,
@@ -13,9 +13,9 @@ use Interop\Http\Server\RequestHandlerInterface;
  */
 interface MiddlewareInterface
 {
-    /**
-     * Process an incoming server request and return a response, optionally delegating
-     * response creation to a handler.
-     */
-    public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface;
+  /**
+   * Process an incoming server request and return a response, optionally delegating
+   * response creation to a handler.
+   */
+  public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface;
 }

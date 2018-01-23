@@ -2,13 +2,13 @@
 
 It is based on the PHP interface definitions and comments available here:
 
-[http-interop/http-server-handler](https://github.com/http-interop/http-server-handler)
+[psr/http-server-handler](https://github.com/php-fig/http-server-handler)
 
-[http-interop/http-server-middleware](https://github.com/http-interop/http-server-middleware)
+[psr/http-server-middleware](https://github.com/php-fig/http-server-middleware)
 
 ## install
 ```bash
-$ hhvm -c php7.ini $(which composer) require ytake/psr-http-handlers-hhi
+$ hhvm -d xdebug.enable=0 -d hhvm.jit=0 -d hhvm.php7.all=1 -d hhvm.hack.lang.auto_typecheck=0 $(which composer) require ytake/psr-http-handlers-hhi
 ```
 
 ### example php7.ini

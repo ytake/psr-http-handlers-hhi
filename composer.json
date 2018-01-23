@@ -6,9 +6,14 @@
     "hack",
     "hhi",
     "psr",
+    "psr-7",
     "psr-15",
     "definition",
-    "http-handlers"
+    "http-handlers",
+    "request",
+    "response",
+    "server",
+    "middleware"
   ],
   "homepage": "https://github.com/ytake/psr-http-handlers-hhi",
   "license": [
@@ -23,8 +28,8 @@
   "require": {
     "php": ">=7.0",
     "hhvm": ">=3.19.0",
-    "http-interop/http-server-middleware": "^1.0",
-    "http-interop/http-server-handler": "^1.0",
+    "psr/http-server-middleware": "^1.0",
+    "psr/http-server-handler": "^1.0",
     "psr/http-message": "^1.0",
     "hack-psr/psr7-http-message-hhi": "^1.0.0"
   },
