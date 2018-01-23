@@ -1,6 +1,6 @@
 # HHI Definitions For PSR15, HTTP Handlers
 
-[![Packagist](https://img.shields.io/badge/HHVM-%3E=3.19-orange.svg)](https://packagist.org/packages/ytake/psr-http-handlers-hhi)
+[![Packagist](https://img.shields.io/badge/HHVM-%3E=3.19-orange.svg?style=flat-square)](https://packagist.org/packages/ytake/psr-http-handlers-hhi)
 [![Packagist](https://img.shields.io/packagist/l/ytake/psr-http-handlers-hhi.svg?style=flat-square)](https://packagist.org/packages/ytake/psr-http-handlers-hhi)
 [![Packagist](https://img.shields.io/packagist/dt/ytake/psr-http-handlers-hhi.svg?style=flat-square)](https://packagist.org/packages/ytake/psr-http-handlers-hhi)
 [![Packagist](https://img.shields.io/packagist/v/ytake/psr-http-handlers-hhi.svg?style=flat-square)](https://packagist.org/packages/ytake/psr-http-handlers-hhi)
